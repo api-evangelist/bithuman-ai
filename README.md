@@ -64,5 +64,161 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-bithuman-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://bithuman.ai/
+bitHuman makes real-time AI avatars for your app or your enterprise: iPhone, Android, Mac, Linux and the browser, or your own servers. Every configuration we publish renders faster than playback speed.
+
+**Areas:** Company · AI · Avatar · Real-time · Platform
+
+## bithuman-ai on APIs.io
+
+Everything profiled for bithuman-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bithuman-ai/](https://apis.io/providers/bithuman-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (18)
+
+- [bithuman-ai Account API](https://apis.io/apis/bithuman-ai/bithuman-ai-account-api/) — Identity, plan, credits, and pricing.
+- [bithuman-ai Agent Context API](https://apis.io/apis/bithuman-ai/bithuman-ai-agent-context-api/) — Control live avatar sessions — make them speak or inject knowledge.
+- [bithuman-ai Agent Generation API](https://apis.io/apis/bithuman-ai/bithuman-ai-agent-generation-api/) — Create new avatar agents from prompts, portraits, and voice samples.
+- [bithuman-ai Agent Management API](https://apis.io/apis/bithuman-ai/bithuman-ai-agent-management-api/) — Retrieve and update existing agents.
+- [bithuman-ai API secrets API](https://apis.io/apis/bithuman-ai/bithuman-ai-api-secrets-api/) — Create, list and delete your account's API secrets: [https://docs.bithuman.ai/api/api-keys](https://docs.bithuman.ai/api/api-keys).
+- [bithuman-ai Authentication API](https://apis.io/apis/bithuman-ai/bithuman-ai-authentication-api/) — Verify API credentials with `POST /v1/validate`.
+- [bithuman-ai Billing API](https://apis.io/apis/bithuman-ai/bithuman-ai-billing-api/) — Check credit balance, plan details, and usage history.
+- [bithuman-ai Dynamics API](https://apis.io/apis/bithuman-ai/bithuman-ai-dynamics-api/) — Generate and manage conversational gesture animations (wave, nod, laugh, idle motions) for an avatar. Generate them asynchronously, then toggle on/off to…
+- [bithuman-ai Embedding API](https://apis.io/apis/bithuman-ai/bithuman-ai-embedding-api/) — Mint short-lived tokens for website avatar embeds.
+- [bithuman-ai Files API](https://apis.io/apis/bithuman-ai/bithuman-ai-files-api/) — Upload images, videos, audio, and documents.
+- [bithuman-ai Knowledge API](https://apis.io/apis/bithuman-ai/bithuman-ai-knowledge-api/) — Ingest sources and build knowledge bases, with an organization API secret: [https://docs.bithuman.ai/api/knowledge](https://docs.bithuman.ai/api/knowledge).
+- [bithuman-ai Providers API](https://apis.io/apis/bithuman-ai/bithuman-ai-providers-api/) — Bring your own LLM, STT and TTS keys: [https://docs.bithuman.ai/api/providers](https://docs.bithuman.ai/api/providers).
+- [bithuman-ai Realtime API](https://apis.io/apis/bithuman-ai/bithuman-ai-realtime-api/) — OpenAI Realtime voice through bitHuman; the WebSocket relay is on [https://docs.bithuman.ai/api/realtime](https://docs.bithuman.ai/api/realtime).
+- [bithuman-ai Runtime sessions API](https://apis.io/apis/bithuman-ai/bithuman-ai-runtime-sessions-api/) — List live sessions, read a transcript, end or terminate a session, revoke every runtime key:…
+- [bithuman-ai Self Hosting API](https://apis.io/apis/bithuman-ai/bithuman-ai-self-hosting-api/) — The two routes a self-hosted or on-device runtime calls: check that its key is still live, and report the session time it served. See…
+- [bithuman-ai Status API](https://apis.io/apis/bithuman-ai/bithuman-ai-status-api/) — Is the API currently refusing work? Unauthenticated, always HTTP 200 — read the `status` field. For a fleet-wide view use…
+- [bithuman-ai Video API](https://apis.io/apis/bithuman-ai/bithuman-ai-video-api/) — Render a finished talking-video mp4 from text or audio. Submit [`POST /v1/video/generate`](#operation/generateTalkingVideo) — async by default, or `wait:…
+- [bithuman-ai Webhooks API](https://apis.io/apis/bithuman-ai/bithuman-ai-webhooks-api/) — Register HTTPS endpoints to receive signed event notifications when async work finishes (`agent.ready`, `agent.failed`, `video.completed`, `video.failed`).…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Bithuman Ai Agentic Access](https://apis.io/agentic-access/bithuman-ai/bithuman-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Agent](https://apis.io/schemas/bithuman-ai/bithuman-ai-agent/)
+- [AgentListItem](https://apis.io/schemas/bithuman-ai/bithuman-ai-agent-list-item/)
+- [ProviderSelection](https://apis.io/schemas/bithuman-ai/bithuman-ai-provider-selection/)
+- [UsageEvent](https://apis.io/schemas/bithuman-ai/bithuman-ai-usage-event/)
+- [Webhook](https://apis.io/schemas/bithuman-ai/bithuman-ai-webhook/)
+- [WebhookDelivery](https://apis.io/schemas/bithuman-ai/bithuman-ai-webhook-delivery/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bithuman Ai Context](https://apis.io/jsonld/bithuman-ai/bithuman-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [bithuman-ai API Rules](https://apis.io/rules/bithuman-ai/bithuman-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bithuman Ai Authentication](https://apis.io/security/bithuman-ai/bithuman-ai-authentication/)
+- [Bithuman Ai Domain Security](https://apis.io/security/bithuman-ai/bithuman-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Bithuman Ai Scopes](https://apis.io/scopes/bithuman-ai/bithuman-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bithuman Ai Plans Pricing](https://apis.io/plans/bithuman-ai/bithuman-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bithuman Ai Rate Limits](https://apis.io/rate-limits/bithuman-ai/bithuman-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bithuman.ai/)
+- [Documentation](https://docs.bithuman.ai)
+- [Getting started](https://docs.bithuman.ai/platforms/ios/quickstart)
+- [API reference](https://docs.bithuman.ai/api)
+- [Pricing](https://www.bithuman.ai/pricing)
+- [Support](https://docs.bithuman.ai/support)
+- [Changelog](https://docs.bithuman.ai/changelog)
+- [Blog](https://www.bithuman.ai/blog)
+- [Security](https://www.bithuman.ai/security)
+- [Terms of service](https://www.bithuman.ai/legal/terms)
+- [Privacy policy](https://www.bithuman.ai/legal/privacy)
+- [Status](https://status.bithuman.ai/)
+
+## API Evangelist rating
+
+**Kin Score 68.8** — exemplar · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 51.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bithuman-ai/](https://apis.io/providers/bithuman-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for bithuman-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bithuman-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
